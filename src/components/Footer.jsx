@@ -14,9 +14,10 @@ const Footer = styled(Grid)({
   // Footer background image
   backgroundImage:
     "url(https://ik.imagekit.io/sathish2267/propaccel/polygon-2.svg?updatedAt=1688043863370)",
-  backgroundSize: "100% 102%",
+  backgroundPosition: "bottom",
+  backgroundSize: "cover",
   height: "493px",
-  width: "1440px",
+  width: "100%",
   alignItems: "center",
   display: "flex",
   justifyContent: "center",
@@ -182,9 +183,7 @@ const FooterComponent = () => {
             bottom: 0,
           }}
         >
-          <FooterBottomText1>
-            All Right Reserved © 2023
-          </FooterBottomText1>
+          <FooterBottomText1>All Right Reserved © 2023</FooterBottomText1>
 
           <FooterCenter>
             <FooterCenterTexts>

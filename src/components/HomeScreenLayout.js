@@ -16,7 +16,7 @@ const HomeScreenLayout = () => {
   const backgroundStyles = {
     backgroundImage: `url('https://ik.imagekit.io/sathish2267/propaccel/polygon-1.svg?updatedAt=1688035689598'), 
     url('https://ik.imagekit.io/sathish2267/propaccel/polygon-1-1.svg?updatedAt=1688035689620')`,
-    backgroundPosition: "88% 0%, 0% 0%",
+    backgroundPosition: "90% 0%, 0% 0%",
     backgroundRepeat: "no-repeat",
     backgroundSize: "auto,",
     position: "absolute",
